@@ -1,6 +1,6 @@
 {
-    "name": "unionco/calendarize",
-    "description": "A calendar field type providing functionality for recurrence.",
+    "name": "adm/calendarize5",
+    "description": "This is a forked version of Calendarize updated for Craft 5. A calendar field type providing functionality for recurrence.",
     "type": "craft-plugin",
     "keywords": [
         "craft",
@@ -16,12 +16,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Franco Valdes",
+            "name": "Orignal: Franco Valdes. Forked and updated by Artisan Digital Media",
             "homepage": "https://union.co"
         }
     ],
     "require": {
-        "craftcms/cms": "^4.0",
+        "craftcms/cms": "^4.0 || ^5.0",
         "rlanvin/php-rrule": "~1.6.0"
     },
     "autoload": {
